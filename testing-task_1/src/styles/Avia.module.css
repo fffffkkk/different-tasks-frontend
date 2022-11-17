@@ -1,0 +1,41 @@
+.content {
+	max-height: 200px;
+	width: 100%;
+}
+.form {}
+.form__wrapper-input {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 30px;
+	border-radius: 15px 15px 0 0;
+	background-color: #5C87DB;
+}
+.form__wrapper-btn {
+	display: flex;
+	justify-content: flex-end;
+	padding: 25px 30px 25px 0;
+	border-radius: 15px;
+	box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+	border-radius: 0px 0px 15px 15px;
+}
+
+input:invalid + button {
+  padding: 100px;
+}
+
+input[type='date'] {
+	position: relative;
+	font-weight: 700;
+	padding-left: 35px;
+	color: var(--second-text-color);
+}
+
+::-webkit-calendar-picker-indicator {
+  color: transparent;
+  opacity: 1;
+  background:  url(../assets/calendar1.svg) no-repeat center;
+  background-size: contain;
+	position: absolute;
+	left: 5%;
+}

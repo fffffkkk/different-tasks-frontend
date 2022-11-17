@@ -1,0 +1,11 @@
+.btn {
+	padding: 0.75rem 1.5rem;
+	border-radius: 10px;
+	border: none;
+	background-color: #5C87DB;
+	color: #fff;
+}
+
+.btn__disabled {
+	background-color: var(--second-text-color)
+}

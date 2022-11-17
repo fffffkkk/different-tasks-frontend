@@ -1,0 +1,15 @@
+.label {}
+.label > p {
+	font-size: 11px;
+	color: #fff;
+}
+.label > input {
+	padding: 12px 0 12px 12px;
+	border-radius: 10px;
+	border: none;
+	min-width: 200px;
+}
+.label > input::placeholder {
+	font-weight: 700;
+	color: var(--second-text-color);
+}

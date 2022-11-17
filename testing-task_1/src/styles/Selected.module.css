@@ -1,0 +1,27 @@
+.form__label-input {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+}
+.form__label-btn {
+	width: 100px;
+	height: 100%;
+	border-radius: 30px;
+	cursor: pointer;
+	background-color: aqua;
+}
+.form__label-input:checked + .form__label-btn {
+	background-color: blue;
+}
+
+/* .form__input-radio:checked + .form__bicycle {
+	display: block;
+}
+.form__bicycle {
+	display: none;
+	position: absolute;
+	right: 0;
+	top: 0;
+} */
