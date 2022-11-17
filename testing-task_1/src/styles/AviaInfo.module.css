@@ -1,0 +1,10 @@
+.content {
+	min-height: 200px;
+	width: 100%;
+}
+.card__wrapper {
+	box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+	border-radius: 15px;
+}
+.card-left {}
+.card-right {}
